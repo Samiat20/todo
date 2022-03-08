@@ -1,0 +1,87 @@
+body{
+background: rgb(83,74,241);
+background: linear-gradient(90deg, rgba(83,74,241,1) 0%, rgba(188,100,212,1) 50%, rgba(209,0,255,1) 100%);
+}
+
+.main{
+
+    width: 300px;
+    background: white;
+    margin: auto;
+    min-height: 500px;
+    border-radius: 20px;
+    margin-top: 180px;
+    position: relative;
+}
+.todo{
+    margin-top: 30px;
+}
+.todo li{
+    margin-top: 20px;
+list-style: none;
+}
+li input{
+    margin-right: 15px;
+}
+
+.tabs{
+   
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+
+}
+.tabs img{
+    width: 30px;
+    line-height: 70px;
+    margin-top: 20px;
+
+}
+.Tab{
+width: 100%;
+text-align:center ;
+background-color: rgb(231, 231, 231);
+border: solid thin rgb(172, 164, 164);
+}
+.active{
+    background-color: white;
+    border: none;
+}
+.add{
+    position:absolute ;
+    bottom: 0;
+    left:50%;
+    width: 30px;
+    background-color: orange;
+    transform: translate(-50%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 900;
+    color: white;
+    font-size: 35px;
+    margin-bottom: -25px;
+    
+
+}
+#input{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color:rgba(228, 201, 201, 0.459);
+    width: 500px;
+    height: 100px;
+    transform: translate(-50%);
+   text-align: center;
+   display: none;
+}
+#input input{
+    margin: 29px;
+    height: 40px;
+    width:70%;
+    border: none;
+    padding-left: 10px;
+}
