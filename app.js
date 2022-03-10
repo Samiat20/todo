@@ -57,26 +57,26 @@ const todos= [
             todos.push(obj)
 
             populate()
-            //disappear()
+            disappear()
             
            
           }
 
       })
-      //var disappear= ()=>{
-      //  document.getElementById("input").style.display= "none"
-        //document.getElementById("inputed").value=" "
-      //}
+      var disappear= ()=>{
+      document.getElementById("input").style.display= "none"
+        document.getElementById("inputed").value=" "
+      }
       //when the main body is clicked the input div shopuld disappear
       // grab the body 
       // write an eventlistener
       
-      document.addEventListener("click",(e)=>{
-       if(e.target.className !="transparent" )
-       { if(e.target.className ="add"){
-        document.getElementById("input").style.display= "block"
-       }else{
-        document.getElementById("input").style.display= "none"
-       }
-    }
-      })
+     // document.addEventListener("click",(e)=>{
+      // if(e.target.className !="transparent" )
+       //{ if(e.target.className ="add"){
+       // document.getElementById("input").style.display= "block"
+      // }else{
+       // document.getElementById("input").style.display= "none"
+       //}
+    //}
+      //})
